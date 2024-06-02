@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "run": {
+      "label": "Main",
+      "command": "bundle exec ruby lib/main.rb"
+    },
+    "test": {
+      "label": "Tests",
+      "command": "bin/rspec --format doc"
+    },
+    "rubocop": {
+      "label": "Linter",
+      "command": "rubocop"
+    }
+  }
+}
